@@ -19,36 +19,22 @@ List of the hardware used in prototype
 
 ## Connections
 Connections of the hardware used in prototype.
-| Device                 | PIN           | Device         | PIN            |
+| Device                 | PIN           | Device         | PIN            | 
 | -------------          |:-------------:| :-------------:| :-------------:|
-| Lopy v4                | Vin           |  Battery       | +               |
-| Lopy v4                | GND           |  Battery       | -               |
-| Lopy v4                | TX            |  SEN-13261     | TX             |
-| Lopy v4                | RX            |  SEN-13261     | RX             |
-| Lopy v4                | P2            |  TPS61023      | EN             |
-| 868 MHz antenna        | uFl plug      |  Lopy v4       | 868 MHz connector             |
-| DS18B20                | 5V SIG GND    |  SEN-13261     | TEMP connector |
-| TPS61023               | OUT           |  SEN-13261     | 5V             |
-| Battery                | -             |  SEN-13261     | GND            |
-| SEN-13261              | E+           |  Zemic L6W-C3-200kg-3G6  | INPUT          |
-| SEN-13261              | E-           |  Zemic L6W-C3-200kg-3G6     | GATE           |
-| SEN-13261              | A+        |  Zemic L6W-C3-200kg-3G6    | GATE           |
-| SEN-13261              | A-         |  Zemic L6W-C3-200kg-3G6       | GND            |
-| SEN-13261              | SHD         |  Zemic L6W-C3-200kg-3G6       | GND            |
-
-## Connector and cable pin orders
-
-This connector is used to deliver external power to system. External power can be sourced for example from 12 VDC solar power system.
-
-Use cable with 4 x 1.5 mm2 or 4 x 2.5 mm2 to allow multiple heating units to be chained.
-
-| PIN #                  | PIN                  | PIN           |
-| -------------          |:-------------:       |:-------------:|
-| PIN 1                  | 12 V                 | 12 V input    |
-| PIN 2                  | GND                  | GND           |
-| PIN 3                  | 12 V                 | 12 V input    |  
-| PIN 4                  | GND                  | GND           |  
-
+| Lopy v4                | Vin           |  Battery                           | +              |
+| Lopy v4                | GND           |  Battery                           | -              |
+| Lopy v4                | TX            |  SEN-13261                         | TX             |
+| Lopy v4                | RX            |  SEN-13261                         | RX             |
+| Lopy v4                | P2            |  TPS61023                          | EN             |
+| 868 MHz antenna        | uFl plug      |  Lopy v4                           | 868 MHz connector |
+| DS18B20                | 5V SIG GND    |  SEN-13261                         | TEMP connector    |
+| TPS61023               | OUT           |  SEN-13261                         | 5V             |
+| Battery                | -             |  SEN-13261                         | GND            |
+| SEN-13261              | E+            |  Zemic L6W-C3-200kg-3G6            | Input (+)      |
+| SEN-13261              | E-            |  Zemic L6W-C3-200kg-3G6            | Input (-)      |
+| SEN-13261              | A+            |  Zemic L6W-C3-200kg-3G6            | Output (+)     |
+| SEN-13261              | A-            |  Zemic L6W-C3-200kg-3G6            | Output (-)     |
+| SEN-13261              | SHD           |  Zemic L6W-C3-200kg-3G6            | Shield         |
 
 
 ## Development
