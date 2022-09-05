@@ -1,7 +1,16 @@
+This repository is developed in Lapland UAS Arctic Beekeeping project
+
+https://www.facebook.com/Arktinenmehilainen/
+
+https://www.lapinamk.fi/fi/Yrityksille-ja-yhteisoille/Lapin-AMKin-hankkeet?RepoProject=4208000101
+
+---
+
 # tequ-bee-nest-scale
 
-This is repository of Bee Nest scale prototype developed in Arctic Beekeeping project. Prototype is developed for Pycom Lopyv4 development board and each prototype can monitor weight of the single bee nest. Each unit is connected LoRaWAN network where data is also sent every 6 hours.
+This is repository of Bee Nest scale prototype device. Prototype is developed for Pycom Lopyv4 development board and each prototype can monitor weight of the single bee nest. Each unit is connected LoRaWAN network where data is also sent every 6 hours.
 
+Collected sensor data can be found and accessed using Bee-Apps, Datatool found from https://dash.tequ.fi.
 
 ## Hardware
 List of the hardware used in prototype
