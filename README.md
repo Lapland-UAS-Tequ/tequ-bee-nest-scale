@@ -17,6 +17,16 @@ List of the hardware used in prototype
 | Batteries              | 3 x 1.5 AA    | Control box     | |
 | Antenna                | 868 MHz    | Control box     | |
 
+## Example mechanics for scale platform
+
+Profican aluminium parts:
+
+- 8 pieces of 40x25-N1102
+- 45x90- N 0166, 2 pieces of 35 cm aluminium profiles
+- 45x45- N 0165, 4 pieces of 56 cm aluminium profiles
+- N 1205, 4 pieces, adjustment of platform
+- 2 cm thick plywood, 60 x 60 cm, attached to aluminium frame
+
 ## Connections
 Connections of the hardware used in prototype.
 | Device                 | PIN           | Device         | PIN            | 
