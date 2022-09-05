@@ -82,9 +82,13 @@ https://docs.pycom.io/updatefirmware/
 
 ### 5. Build connections
 
-### 6. Upload project to Wipy and test its working
+### 6. Configure Sparkfun OpenScale
 
-### 7. Start developing!
+See image "scale_asetukset.PNG" in this repository and configure your scale with same settings.
+
+### 7. Upload project to Lopy v4 and test its working
+
+### 8. Start developing!
 
 ### OPTIONAL Register device to Digita´s LoRaWAN portal
 
